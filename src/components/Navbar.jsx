@@ -40,7 +40,7 @@ const Navbar = () => {
   return (
     <div className='fixed z-50 w-full h-[80px] flex justify-between items-center px-4 bg-[#1F2839] text-gray-300'>
         <div>
-            <Link to="home" spy={true} smooth={true} onClick={() => scrollToSection('home')}>
+            <Link to="home" spy={true} smooth={true} onClick={() => scrollToSection('home')} style={{ cursor: 'pointer' }}>
             <img src={Logo} alt="Logo" style={{width: "50px"}}/>
             </Link>
         </div>
@@ -70,14 +70,14 @@ const Navbar = () => {
                 </Link>
             </li>
             <li className={activeSection === 'work' ? 'active-link' : ''}>
-                <Link to="work" spy={true} smooth={true} offset={-50} duration={500} 
+                <Link to="work" spy={true} smooth={true} offset={-85} duration={500} 
                 onClick={() => scrollToSection('work')}
                 className="hover:text-[#FF572A]">
                 Work
                 </Link>
             </li>
             <li className={activeSection === 'contact' ? 'active-link' : ''}>
-                <Link to="contact" spy={true} smooth={true} duration={500} 
+                <Link to="contact" spy={true} smooth={true} offset={-20} duration={500} 
                 onClick={() => scrollToSection('contact')}
                 className="hover:text-[#FF572A]">
                 Contact

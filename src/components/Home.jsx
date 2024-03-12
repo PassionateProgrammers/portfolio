@@ -13,7 +13,7 @@ const Home = () => {
             <p className='text-[#FF572A]'>Hi, I'm</p>
             <h1 className='mt-2 text-4xl sm:text-7xl font-bold text-gray-300'>James</h1>
             <h2 className='mt-2 text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Software Engineer</h2>
-            <p className='text-[#8892b0] py-4 max-w-[700px]'>I'm a Software Engineer with experience in full-stack development of
+            <p className='text-[#8892b0] py-4 max-w-[700px]'>I'm a Software Engineer with experience in front-end development of
                 responsive web applications from start to finish.
             </p>
             <div>
@@ -28,21 +28,21 @@ const Home = () => {
             </div>
         </div>
         {/* mobile social icons */}
-        <div className='lg:hidden flex justify-center items-center absolute bottom-8 w-full'>
-            <a className='text-gray-300 mx-4' href="https://www.linkedin.com/in/james-kirk-1208581b2" target="_blank" rel="noopener noreferrer">
-                <FaLinkedin size={40} className='my-2'/>
+        <div className='lg:hidden flex justify-center items-center absolute bottom-24 w-full space-x-4'>
+            <a className='text-gray-300 hover:text-[#FF572A] text-center' href="https://www.linkedin.com/in/james-kirk-1208581b2" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin size={40} className='my-2 mx-2'/>
                 LinkedIn
             </a>
-            <a className='text-gray-300 mx-4' href="https://github.com/PassionateProgrammers" target="_blank" rel="noopener noreferrer">
-                <FaGithub size={40} className='my-2'/>
+            <a className='text-gray-300 hover:text-[#FF572A] text-center' href="https://github.com/PassionateProgrammers" target="_blank" rel="noopener noreferrer">
+                <FaGithub size={40} className='my-2 mx-2'/>
                 GitHub
             </a>
-            <a className='text-gray-300 mx-4' href="mailto:jameskirk561@gmail.com" target="_blank" rel="noopener noreferrer">
-                <HiOutlineMail size={40} className='my-2'/>
+            <a className='text-gray-300 hover:text-[#FF572A] text-center' href="mailto:jameskirk561@gmail.com" target="_blank" rel="noopener noreferrer">
+                <HiOutlineMail size={40} className='my-2 mx-2'/>
                 Email
             </a>
-            <a className='text-gray-300 mx-4' href="https://drive.google.com/file/d/1m_d3zcu0u-BqvkewmkMbyJZBIEEwu3X5/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-                <BsFillPersonLinesFill size={40} className='my-2'/>
+            <a className='text-gray-300 hover:text-[#FF572A] text-center' href="https://drive.google.com/file/d/1m_d3zcu0u-BqvkewmkMbyJZBIEEwu3X5/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                <BsFillPersonLinesFill size={40} className='my-2 mx-2'/>
                 Resume
             </a>
         </div>
