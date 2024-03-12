@@ -41,7 +41,7 @@ const Home = () => {
                 <HiOutlineMail size={40} className='my-2 mx-2'/>
                 Email
             </a>
-            <a className='text-gray-300 hover:text-[#FF572A] text-center' href="https://drive.google.com/file/d/1l9xq2JyIEdLPBV9r4VLBkfo401wV4tAJ/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+            <a className='text-gray-300 hover:text-[#FF572A] text-center' href="https://drive.google.com/file/d/1TMICUso6jpNXJCB4m95TM0KJIg69-jnd/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <BsFillPersonLinesFill size={40} className='my-2 mx-2'/>
                 Resume
             </a>
