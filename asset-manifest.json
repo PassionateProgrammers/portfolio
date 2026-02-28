@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.550a9916.css",
-    "main.js": "/portfolio/static/js/main.023cd7b8.js",
+    "main.js": "/portfolio/static/js/main.99c7458d.js",
+    "static/media/james.png": "/portfolio/static/media/james.9b9febc357cc9a4047f7.png",
     "static/media/TacticalEdge.png": "/portfolio/static/media/TacticalEdge.153a8682d6acf5abca91.png",
     "static/media/ap76.png": "/portfolio/static/media/ap76.0d1d84cee9a16e80e835.png",
-    "static/media/james.png": "/portfolio/static/media/james.1fcde9e0ca5d48b76cf3.png",
     "static/media/wordpress.png": "/portfolio/static/media/wordpress.e57edef52e87e20b8155.png",
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/portfolio/static/media/node.952a9ea986dcfa5229ad.png",
@@ -17,10 +17,10 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
     "main.550a9916.css.map": "/portfolio/static/css/main.550a9916.css.map",
-    "main.023cd7b8.js.map": "/portfolio/static/js/main.023cd7b8.js.map"
+    "main.99c7458d.js.map": "/portfolio/static/js/main.99c7458d.js.map"
   },
   "entrypoints": [
     "static/css/main.550a9916.css",
-    "static/js/main.023cd7b8.js"
+    "static/js/main.99c7458d.js"
   ]
 }
