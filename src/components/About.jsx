@@ -8,13 +8,13 @@ const About = () => {
         <div className='max-w-[1000px] w-full flex flex-col sm:flex-row justify-center items-center gap-8 px-4'>
           <div className='sm:w-1/2'>
             {/* Text content */}
-            <div className='sm:text-4xl sm:text-right text-2xl font-bold'>
+            <div className='sm:text-4xl sm:text-left text-2xl font-bold'>
               <p className='text-4xl font-bold inline border-b-4 border-[#FF572A]'>About</p>
-              <p className='mt-4 pb-4'>Hi. I'm James, nice to meet you. Please take a look around.</p>
-              <p className='text-base font-normal'>I'm passionate about building software that improves the lives of
-                people around me. I specialize in creating software from start to
-                finish by designing, implementing, and testing software based on
-                the needs of the client.
+              <p className='text-base font-normal py-4'>I’m a software engineer focused on building reliable backend systems and data-driven applications. I recently earned a B.S. in Computer Science with a minor in Artificial Intelligence from Florida Atlantic University.
+              </p>
+              <p className='text-base font-normal py-4'>My work centers around designing scalable APIs, building structured data pipelines, and integrating hardware and software systems. I’ve developed multi-service backend platforms using FastAPI, PostgreSQL, Redis, and Docker, and I’ve built production-ready mobile applications with SwiftUI and Firebase.
+              </p>
+              <p className='text-base font-normal'>I care about clean architecture, thoughtful system design, and writing software that’s maintainable under real-world constraints.
               </p>
             </div>
           </div>

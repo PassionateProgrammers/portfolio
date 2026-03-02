@@ -4,18 +4,20 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import CustomCursor from "./components/CustomCursor";
 
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Work />
-      <Contact />
-    </div>
+      <div>
+        <CustomCursor />
+        <Navbar />
+        <Home />
+        <About />
+        <Skills />
+        <Work />
+        <Contact />
+      </div>
   );
 }
 

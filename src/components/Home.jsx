@@ -11,11 +11,8 @@ const Home = () => {
         {/* Container */}
         <div className='max-w-[800px] mx-auto px-8 flex flex-col justify-center h-full'>
             <p className='text-[#FF572A]'>Hi, I'm</p>
-            <h1 className='mt-2 text-4xl sm:text-7xl font-bold text-gray-300'>James</h1>
-            <h2 className='mt-2 text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Software Engineer</h2>
-            <p className='text-[#8892b0] py-4 max-w-[700px]'>I'm a Software Engineer with experience in front-end development of
-                responsive web applications from start to finish.
-            </p>
+            <h1 className='mt-2 text-4xl sm:text-7xl font-bold text-gray-300'>James Kirk</h1>
+            <h2 className='mt-2 mb-8 text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Software Engineer</h2>
             <div>
             <Link to="work" spy={true} smooth={true} offset={-85} duration={500}>
                 <button className='group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#FF572A] hover:border-[#FF572A]'>

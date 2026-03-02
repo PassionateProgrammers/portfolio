@@ -1,61 +1,98 @@
 import React from 'react';
 
+// Frontend
 import Javascript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
-import Github from '../assets/github.png';
-import Mongo from '../assets/mongo.png';
-import CPlus from '../assets/c-logo.png';
 import HtmlLogo from '../assets/html.png';
 import CssLogo from '../assets/css.png';
 
+// Backend / Data
+import Node from '../assets/node.png';
+import Python from '../assets/python.png';
+import FastAPI from '../assets/fastapi.png';
+import Postgres from '../assets/postgres.png';
+import Redis from '../assets/redis.png';
+import Mongo from '../assets/mongo.png';
+
+// DevOps / Tools
+import Docker from '../assets/docker.png';
+import Github from '../assets/github.png';
+
+// Mobile
+import Swift from '../assets/swift.png';
+import Firebase from '../assets/firebase.png';
+
+// Systems
+import CPlus from '../assets/c-logo.png';
+
+//AI/ML
+import PyTorch from '../assets/pytorch.png';
+
 const Skills = () => {
+
+  const skills = [
+    // Core Languages
+    { name: 'JavaScript', image: Javascript },
+    { name: 'Python', image: Python },
+    { name: 'C++', image: CPlus },
+
+    // Frontend
+    { name: 'React', image: ReactImg },
+    { name: 'HTML', image: HtmlLogo },
+    { name: 'CSS', image: CssLogo },
+
+    // Backend
+    { name: 'Node.js', image: Node },
+    { name: 'FastAPI', image: FastAPI },
+    { name: 'PostgreSQL', image: Postgres },
+    { name: 'Redis', image: Redis },
+    { name: 'MongoDB', image: Mongo },
+
+    // DevOps / Tools
+    { name: 'Docker', image: Docker },
+    { name: 'GitHub', image: Github },
+
+    // Mobile
+    { name: 'Swift', image: Swift },
+    { name: 'Firebase', image: Firebase },
+
+    // AI/ML
+    { name: 'PyTorch', image: PyTorch }
+
+  ];
+
   return (
-    <div name='skills' className='w-full h-screen bg-[#1F2839] text-gray-300'>
-        {/* Container */}
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-            <div>
-                <p className='text-4xl font-bold inline border-b-4 border-[#FF572A]'>Skills</p>
-                <p className='py-4'>These are the technologies I've worked with</p>
-            </div>
+    <div name='skills' className='w-full min-h-screen bg-[#1F2839] text-gray-300'>
+      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
 
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                   <img className='w-20 mx-auto' src={CPlus} alt="C++" />
-                   <p className='my-4'>C++</p> 
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                   <img className='w-20 mx-auto' src={HtmlLogo} alt="HTML" />
-                   <p className='my-4'>HTML</p> 
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                   <img className='w-20 mx-auto' src={CssLogo} alt="Css" />
-                   <p className='my-4'>CSS</p> 
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                   <img className='w-20 mx-auto' src={Github} alt="Github" />
-                   <p className='my-4'>GITHUB</p> 
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                   <img className='w-20 mx-auto' src={Javascript} alt="Javascript" />
-                   <p className='my-4'>JAVASCRIPT</p> 
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                   <img className='w-20 mx-auto' src={ReactImg} alt="React" />
-                   <p className='my-4'>REACT</p> 
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                   <img className='w-20 mx-auto' src={Node} alt="Node" />
-                   <p className='my-4'>NODE JS</p> 
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                   <img className='w-20 mx-auto' src={Mongo} alt="Mongo" />
-                   <p className='my-4'>MONGO DB</p> 
-                </div>
-            </div>
+        <div>
+          <p className='text-4xl font-bold inline border-b-4 border-[#FF572A]'>
+            Skills
+          </p>
+          <p className='py-4'>
+            Technologies I’ve worked with:
+          </p>
         </div>
-    </div>
-  )
-}
 
-export default Skills
+        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-6 text-center py-8'>
+          {skills.map((skill) => (
+            <div
+              key={skill.name}
+              className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 rounded-md'
+            >
+              <img
+                className='w-16 mx-auto'
+                src={skill.image}
+                alt={skill.name}
+              />
+              <p className='mt-4'>{skill.name}</p>
+            </div>
+          ))}
+        </div>
+
+      </div>
+    </div>
+  );
+};
+
+export default Skills;

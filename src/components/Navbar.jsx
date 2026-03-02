@@ -63,14 +63,14 @@ const Navbar = () => {
             </li>
             <li className={activeSection === 'skills' ? 'active-link' : ''}>
                 <Link 
-                to="skills" spy={true} smooth={true} duration={500}
+                to="skills" spy={true} smooth={true} offset={-80} duration={500}
                 onClick={() => scrollToSection('skills')} 
                 className="hover:text-[#FF572A]">
                 Skills
                 </Link>
             </li>
             <li className={activeSection === 'work' ? 'active-link' : ''}>
-                <Link to="work" spy={true} smooth={true} offset={-85} duration={500} 
+                <Link to="work" spy={true} smooth={true} offset={-70} duration={500} 
                 onClick={() => scrollToSection('work')}
                 className="hover:text-[#FF572A]">
                 Work
@@ -133,7 +133,7 @@ const Navbar = () => {
                     </a> 
                 </li>
                 <li className='w-[160px] h-[60px] flex justified-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="https://drive.google.com/file/d/1bwL_nr6NERexUA3hzPceZ7_dXX4UbheQ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a className='flex justify-between items-center w-full text-gray-300' href="https://drive.google.com/file/d/1ne8JF4qUYEbg1703L6Wr9lwt8flkteFW/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         Resume <BsFillPersonLinesFill size={30} />
                     </a> 
                 </li>
