@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div name='home' className='relative z-40 w-full h-screen bg-[#1F2839]'>
         {/* Container */}
-        <div className='max-w-[800px] mx-auto px-8 flex flex-col justify-center h-full'>
+        <div className='max-w-[800px] mx-auto px-8 flex flex-col justify-center h-full -translate-y-12'>
             <p className='text-[#FF572A]'>Hi, I'm</p>
             <h1 className='mt-2 text-4xl sm:text-7xl font-bold text-gray-300'>James Kirk</h1>
             <h2 className='mt-2 mb-8 text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Software Engineer</h2>
@@ -25,7 +25,7 @@ const Home = () => {
             </div>
         </div>
         {/* mobile social icons */}
-        <div className='lg:hidden flex justify-center items-center absolute bottom-24 w-full space-x-4'>
+        <div className='lg:hidden flex justify-center items-center absolute bottom-36 w-full space-x-4'>
             <a className='text-gray-300 hover:text-[#FF572A] text-center' href="https://www.linkedin.com/in/james-kirk-1208581b2" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin size={40} className='my-2 mx-2'/>
                 LinkedIn
@@ -38,7 +38,7 @@ const Home = () => {
                 <HiOutlineMail size={40} className='my-2 mx-2'/>
                 Email
             </a>
-            <a className='text-gray-300 hover:text-[#FF572A] text-center' href="https://drive.google.com/file/d/1bwL_nr6NERexUA3hzPceZ7_dXX4UbheQ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <a className='text-gray-300 hover:text-[#FF572A] text-center' href="https://drive.google.com/file/d/1ne8JF4qUYEbg1703L6Wr9lwt8flkteFW/view" target="_blank" rel="noopener noreferrer">
                 <BsFillPersonLinesFill size={40} className='my-2 mx-2'/>
                 Resume
             </a>
